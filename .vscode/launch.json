@@ -1,0 +1,47 @@
+{
+  // Use IntelliSense to learn about possible attributes.
+  // Hover to view descriptions of existing attributes.
+  // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Launch current",
+      "program": "${workspaceFolder}//Algorithms/Tree/reconstructTree.js",
+      "request": "launch",
+      "skipFiles": ["<node_internals>/**"],
+      "type": "pwa-node"
+    },
+    {
+      "name": "Launch Array",
+      "program": "${workspaceFolder}//Algorithms/Array/partSum.js",
+      "request": "launch",
+      "skipFiles": ["<node_internals>/**"],
+      "type": "pwa-node"
+    },
+    {
+      "name": "Launch Array program: repeat num",
+      "program": "${workspaceFolder}/Algorithms/Array/repeatNum.js",
+      "request": "launch",
+      "skipFiles": ["<node_internals>/**"],
+      "type": "pwa-node"
+    },
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "Launch Program",
+      "skipFiles": ["<node_internals>/**"],
+      "program": "${workspaceFolder}/Node/events/app.js",
+      "outFiles": ["${workspaceFolder}/**/*.js"]
+      // "console": "integratedTerminal"
+    },
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "Launch inherit.js",
+      "skipFiles": ["<node_internals>/**"],
+      "program": "${workspaceFolder}/Node/events/inherit.js",
+      "outFiles": ["${workspaceFolder}/**/*.js"]
+      // "console": "integratedTerminal"
+    }
+  ]
+}
