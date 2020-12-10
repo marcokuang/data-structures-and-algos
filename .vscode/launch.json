@@ -5,15 +5,15 @@
   "version": "0.2.0",
   "configurations": [
     {
-      "name": "Launch current",
-      "program": "${workspaceFolder}//Algorithms/Tree/reconstructTree.js",
+      "name": "Launch Tree",
+      "program": "${workspaceFolder}//Algorithms/Tree/BST.js",
       "request": "launch",
       "skipFiles": ["<node_internals>/**"],
       "type": "pwa-node"
     },
     {
       "name": "Launch Array",
-      "program": "${workspaceFolder}//Algorithms/Array/partSum.js",
+      "program": "${workspaceFolder}//Algorithms/Array/arrayOfProducts.js",
       "request": "launch",
       "skipFiles": ["<node_internals>/**"],
       "type": "pwa-node"
