@@ -83,12 +83,11 @@ function preorderTraversial(root) {
   if (root == null) {
     return [];
   }
-  let current = root;
   let stack = [root];
   let output = [];
 
   while (stack.length) {
-    current = stack.pop();
+    let current = stack.pop();
     output.push(current.val);
 
     if (current.right) {

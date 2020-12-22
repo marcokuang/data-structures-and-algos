@@ -6,21 +6,35 @@
   "configurations": [
     {
       "name": "Launch Tree",
-      "program": "${workspaceFolder}//Algorithms/Tree/BST.js",
+      "program": "${workspaceFolder}//Algorithms/Tree/numberOfIslands.js",
       "request": "launch",
       "skipFiles": ["<node_internals>/**"],
       "type": "pwa-node"
     },
     {
       "name": "Launch Array",
-      "program": "${workspaceFolder}//Algorithms/Array/arrayOfProducts.js",
+      "program": "${workspaceFolder}//Algorithms/Array/permutation.js",
       "request": "launch",
       "skipFiles": ["<node_internals>/**"],
       "type": "pwa-node"
     },
     {
-      "name": "Launch Array program: repeat num",
-      "program": "${workspaceFolder}/Algorithms/Array/repeatNum.js",
+      "name": "Launch Array-DP",
+      "program": "${workspaceFolder}/Algorithms/Array/DynamicProgramming/levensteinDistance.js",
+      "request": "launch",
+      "skipFiles": ["<node_internals>/**"],
+      "type": "pwa-node"
+    },
+    {
+      "name": "Launch Array-Backtracking",
+      "program": "${workspaceFolder}/Algorithms/Array/Backtracking/permutation.js",
+      "request": "launch",
+      "skipFiles": ["<node_internals>/**"],
+      "type": "pwa-node"
+    },
+    {
+      "name": "Launch String",
+      "program": "${workspaceFolder}/Algorithms/String/hanoiTower.js",
       "request": "launch",
       "skipFiles": ["<node_internals>/**"],
       "type": "pwa-node"
