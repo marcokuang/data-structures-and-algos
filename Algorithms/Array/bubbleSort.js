@@ -1,3 +1,8 @@
+/**
+ * O(n^2)
+ * @param {*} array
+ */
+
 function bubbleSort(array) {
   // Write your code here.
 

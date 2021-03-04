@@ -43,6 +43,8 @@ let array = [1, 2, 3];
 function permutationBT(array) {
   let output = [];
   let permutation = [];
+  // treat array as the decision making base. loop all numbers in the
+  // array to find posibilities to add to permutation.
   let backtracking = (array, permutation, used) => {
     if (permutation.length === array.length) {
       output.push([...permutation]);

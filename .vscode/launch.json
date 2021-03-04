@@ -6,21 +6,35 @@
   "configurations": [
     {
       "name": "Launch Tree",
-      "program": "${workspaceFolder}//Algorithms/Tree/numberOfIslands.js",
+      "program": "${workspaceFolder}//Algorithms/Tree/boggleBoard.js",
+      "request": "launch",
+      "skipFiles": ["<node_internals>/**"],
+      "type": "pwa-node"
+    },
+    {
+      "name": "Launch List",
+      "program": "${workspaceFolder}//Algorithms/List/loop.js",
+      "request": "launch",
+      "skipFiles": ["<node_internals>/**"],
+      "type": "pwa-node"
+    },
+    {
+      "name": "Launch Graph",
+      "program": "${workspaceFolder}//Algorithms/Graph/jobs2.js",
       "request": "launch",
       "skipFiles": ["<node_internals>/**"],
       "type": "pwa-node"
     },
     {
       "name": "Launch Array",
-      "program": "${workspaceFolder}//Algorithms/Array/permutation.js",
+      "program": "${workspaceFolder}//Algorithms/Array/mergeSort.js",
       "request": "launch",
       "skipFiles": ["<node_internals>/**"],
       "type": "pwa-node"
     },
     {
       "name": "Launch Array-DP",
-      "program": "${workspaceFolder}/Algorithms/Array/DynamicProgramming/levensteinDistance.js",
+      "program": "${workspaceFolder}/Algorithms/Array/DynamicProgramming/numbersInPi.js",
       "request": "launch",
       "skipFiles": ["<node_internals>/**"],
       "type": "pwa-node"
@@ -34,7 +48,14 @@
     },
     {
       "name": "Launch String",
-      "program": "${workspaceFolder}/Algorithms/String/hanoiTower.js",
+      "program": "${workspaceFolder}/Algorithms/String/wordPattern2.js",
+      "request": "launch",
+      "skipFiles": ["<node_internals>/**"],
+      "type": "pwa-node"
+    },
+    {
+      "name": "Launch String-DP",
+      "program": "${workspaceFolder}/Algorithms/String/DynamicProgramming/interleavingString.js",
       "request": "launch",
       "skipFiles": ["<node_internals>/**"],
       "type": "pwa-node"
